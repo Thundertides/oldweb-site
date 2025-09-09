@@ -1,0 +1,100 @@
+body {
+      background-color: #F0EAD6;
+      background: linear-gradient(180deg,rgba(254, 251, 199, 0.6) 60%, rgba(255, 180, 180, 0.6) 100%), url('face-04.png');
+      color:#F0EAD6;
+      min-height: 98.5vh; 
+     }
+ @font-face {
+    font-family: 'myFont'; /*a name to be used later*/
+    src: url('Myfont-Regular.ttf'); /*URL to font*/
+		}
+.center {
+		flex:8;
+ 		margin-top: 10px;
+ 		margin-bottom: 10px;
+ 		height: 100%;
+  		overflow: auto;
+  		border-radius: 25px;
+  		border: 5px solid #F0EAD6;
+  		padding: 10px;
+  		background-image: url('https://teppyslayouts.neocities.org/img/background/animal-03.png');
+  		background-color: #FFB4B4;
+		}
+.left {
+		flex:2;
+		flex-direction: column;
+		display: flex;
+ 		margin-top: 10px;
+ 		margin-bottom: 10px;
+ 		margin-right: 40px;
+ 		height: 100%;
+  		overflow: auto;
+  		border-radius: 25px;
+  		border: 5px solid #F0EAD6;
+  		padding: 10px;
+  		background-image: url('https://teppyslayouts.neocities.org/img/background/animal-04.png');
+  		background-color: #5EABD6;
+}
+.bottom {
+	  position: relative;
+  	  bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
+  	  border: 0px solid #F0EAD6;
+  	  border-radius: 10px;
+}
+
+.container {
+	width: 80%; 
+	display: flex; 
+	height: 90vh; 
+	flex-direction: row; 
+	align-items: stretch; 
+	align-content: stretch; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+	
+ /* unvisited link */
+a:link {
+  color: lime;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  transform: scale(1.1);
+}
+
+/* selected link */
+a:active {
+  color: blue;
+} 
+
+.custom-select {
+	min-width: 350px;
+  }
+  
+  .custom-select select {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+	appearance: none;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.15rem;
+	padding: 0.675em 6em 0.675em 1em;
+	color:#F0EAD6;
+	background-color:#5EABD6;
+	border: 1px solid #caced1;
+	border-radius: 0.25rem;
+	cursor: pointer;
+	display:inline-block;
+  }
